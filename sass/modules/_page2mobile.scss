@@ -1,0 +1,107 @@
+main {
+
+.have-height {
+    min-height: 500px;
+  }
+  div {
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+
+                      p.image-caption {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        color: white;
+                        font-weight: bold;
+                        background-color: rgba(0, 0, 0, 0.6);
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                        white-space: nowrap;
+                      }
+  }
+  div.with-background {
+    position: relative;
+    transition: all 100ms linear;
+    border-radius: 5px;
+    border: 4px solid #009688;
+  }
+  div.with-background:hover {
+    box-shadow: 0 0 10px 4px #009688;
+  }
+  div.is-child {
+    margin: 10px;
+  }
+  .parent-1 {
+    ////////////////////////////////////kept all images in one collection and kept the link for that collection below///////////////////////////////////////////
+
+   // images from unsplash collection = https://unsplash.com/collections/ogiouBpo1gc/midterm-collection -->/////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .parent-1-child-1 {
+      background-image: url(../images/p1.jpg); 
+    }
+    .parent-1-child-2 {
+      background-image: url(../images/f2.jpg);
+    }
+    .parent-1-child-3 {
+      background-image: url(../images/f3.jpg);
+    }
+    .parent-1-child-4 {
+      background-image: url(../images/f4.jpg);
+    }
+    .parent-1-child-5 {
+      background-image: url(../images/f5.jpg);
+    }
+  }
+  .parent-2 {
+    margin: 5px 20px 20px 20px;
+    background-image: url(../images/l1.jpg);
+  }
+  .parent-3 {
+    margin: 20px 20px 5px 20px;
+    background-image: url(../images/l2.jpg);
+  }
+  .parent-4 {
+    .parent-4-child-1 {
+      background-image: url(../images/f1.jpg);
+    }
+    .parent-4-child-2 {
+      background-image: url(../images/p2.jpg);
+    }
+    .parent-4-child-3 {
+      background-image: url(../images/p3.jpg);
+    }
+    .parent-4-child-4 {
+      background-image: url(../images/p4.jpg);
+    }
+    
+
+  }
+}
+  
+  footer {
+    background-color: #80deea;
+    color: #fff;
+    padding: 20px;
+    p {
+      color: #000000;
+      margin-top: 0;
+    }
+    .credit-spans {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .credit-spans span.footer-credit {
+      padding: 10px;
+      background-color: #29b6f6;
+      margin: 4px;
+      border-radius: 5px;
+    }
+  }
+  
+ 

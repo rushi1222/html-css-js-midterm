@@ -1,0 +1,23 @@
+@import "../mixins";
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+   @include back($background);
+   
+  }
+  article{
+    text-align: right;
+  }
+
+
+
+// header {
+    
+//     @include backgroundcolor($color-two);
+// }
+
+// h1 {
+//     text-align: center;
+// }

@@ -1,0 +1,90 @@
+/* Desktop */
+
+@media only screen and (min-width: 1000px) {
+      
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+      }
+      
+      .nav li {
+      
+      
+        width: 150px;
+        text-align: center;
+        color: white;
+        background: $color-five;
+        padding: 10px;
+      
+      
+      }
+      
+    
+
+    .parent1 {
+        width: 100%;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows:none;
+        justify-content: space-between;
+        .child1 {
+     
+          grid-area: 1/1/2/3;
+        }
+      
+       
+         .child2{
+          grid-area: 1/3/2/4;
+          text-align: left;
+          text-decoration: darkgoldenrod;
+          color: black;
+        }
+         .child3{
+          grid-area: 1/4/2/5;
+          text-align: left;
+          
+        }
+        .child4 {
+          text-align: left;
+          grid-area: 1/5/2/6;
+        }
+      
+        .child5 {
+          grid-area: 1/6/2/7;
+          
+        }
+        
+      }
+     
+ 
+      .parent4 {
+        width: 100%;
+        overflow: hidden;
+        display: grid;
+        
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows:none;
+        justify-content: space-between;
+
+         .p4child1{
+          
+             grid-area: 1/1/2/2;
+        }
+       .p4child2{
+          grid-area: 1/2/2/4;
+      }
+       .p4child3{
+          grid-area: 1/4/2/6;
+      }
+      .p4child4{
+          grid-area: 1/6/2/8;
+      } 
+      }
+
+   
+    
+  }
+  
+

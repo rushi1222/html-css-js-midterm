@@ -1,0 +1,32 @@
+/* Tablet */
+
+@media (min-width:700px) {
+    .nav_parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .nav_children {
+        @include backgroundcolor($color-three);
+        
+        @include boxprop(center, 10px);
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .main_parent1 {
+        @include gridtemplate(2fr repeat(2, 1fr), 1fr 1fr);
+       
+        border: $color-six solid 1px;
+    }
+
+    .main_parent1_child5 {
+        grid-column: 2 / 4
+    }
+
+    .main_parent4 {
+        @include gridtemplate(1fr 2fr, 1fr 1fr);
+        
+    } 
+}

@@ -1,0 +1,119 @@
+
+
+
+  h1{
+    text-align: center;
+    color: $color-two;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 10px;
+    font-size:50px;
+  }
+
+  h3{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size:30px;
+    color: $color-three;
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.nav li{
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: $color-five;
+    padding: 10px;
+  }
+
+
+a{
+  color: $color-six;
+}
+a:hover{
+  color: white;
+}
+
+img{
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.parent1{
+  background: $color-seven;
+
+}
+.parent1 div{
+  text-align: center;
+  padding: 30px;
+  border-width: 1px;
+}
+
+.parent2, .parent3 {
+  @include alignmobile();
+}
+
+.parent4 div {
+  @include alignmobile();
+}
+
+
+
+
+.btn1{
+  background-color: $color-eight;
+  border:double;
+  border-radius: 15px;
+  color: rgb(218, 218, 218);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.btn1:hover{
+  background: rgb(202, 182, 182);
+  color:  $color-eight;
+}
+
+
+.btn2{
+  background-color: $color-five;
+  font-family:'Courgette', cursive;
+  font-weight: 800;
+  font-size: 16px;
+  color: $color-nine;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  width:200px;
+}
+.btn2:hover{
+  background: $color-ten;
+  color:  $color-eight;
+}
+
+.parent3{
+  text-align: left;
+}
+.parent3 img{
+  float:right;
+}
+.footer {
+  background: $color-eleven;
+  color: white;
+  padding: 13px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+ 

@@ -1,0 +1,34 @@
+@import "variables";
+
+
+@import "modules/base";
+@import "mixins";
+
+@import "modules/mobile.scss";
+@import "modules/page2mobile.scss";
+
+
+
+@media (min-width: 1000px) {
+    @import "modules/desktop.scss"; 
+}
+@media (min-width: 1000px) {
+    @import "modules/page2desktop.scss";
+}
+
+///page 3 css
+
+.about{
+    display:block;
+    height:65vh;
+    background-color: grey;
+    border-radius: 6px;
+    margin:20px;
+    color:white;
+    text-align: center;
+    padding-top:150px;
+}
+
+
+
+
